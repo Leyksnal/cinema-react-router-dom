@@ -10,8 +10,8 @@ export default function Header() {
 </Link>
             <Menu>
                 <Nav to="/about">About</Nav>
-                <Nav to="/about">Register</Nav>
-                <Nav to="/about">Sign out</Nav>
+                <Nav to="/">Register</Nav>
+                <Nav to="/">Sign out</Nav>
             </Menu>
         </Wrapper>
     </Container>
@@ -21,7 +21,7 @@ export default function Header() {
 const Container = styled.div`
     width: 100%;
     height: 80px;
-    background-color: #eefe;
+    background-color: #aaa;
     display: flex;
     align-items: center;
 `;
@@ -37,7 +37,7 @@ const Avater = styled.img`
     border-radius: 50%;
     margin-left: 20px;
     object-fit: cover;
-    border: solid 2px purple;
+    border: solid 3px black;
 `;
 const Menu = styled.div`
     margin-right: 20px;
